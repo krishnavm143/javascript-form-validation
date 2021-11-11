@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,200&family=Mulish:wght@200&display=swap');
+body {
+  background-color: #111827;
+  font-family: 'Montserrat', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    background-color: #F9FAFB;
+    padding: 16px;
+}
+.registrationbtn{
+    background-color: #07925f;
+    color: #F9FAFB;
+    padding:16px 20px;
+    margin: 8px 0px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    opacity: 0.9;
+}
+input[type=email],input[type=password]{
+    width: 100%;
+    padding-bottom: 25px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background-color:#D1D5DB;
+}
+input[type=email]:focus,input[type=password]:focus{
+    background-color:#b1c2db ;
+}
+hr{
+    border: 1px solid #E5E7EB;
+    outline: none;
+}
+.registrationbtn:hover{
+    opacity: 1;
+}
+a{
+    color: #4338CA;
+}
+.containerSignin{
+    background-color: #F9FAFB;
+    text-align: center;
+}
